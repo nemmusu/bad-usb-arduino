@@ -38,5 +38,5 @@ This command saves a `test.txt` file containing information about WiFi profiles 
 
 ## Execution Demo
 
-When you connect the Arduino device, it automatically executes the programmed sequence as shown in the demo image ([Demo](https://github.com/nemmusu/badarduino/example/demo.gif)). The GIF demonstrates how the Arduino opens PowerShell and runs commands to collect information, storing it in a text file, which then opens in Notepad.
+When you connect the Arduino device, it automatically executes the programmed sequence as shown in the demo image ([Demo](https://github.com/nemmusu/badarduino/blob/main/example/demo.gif)). The GIF demonstrates how the Arduino opens PowerShell and runs commands to collect information, storing it in a text file, which then opens in Notepad.
 
