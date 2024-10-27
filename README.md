@@ -8,7 +8,7 @@ This project is a demonstrative example of how to use an Arduino device to send 
 
 ## Code Features
 
-This code uses an Arduino (e.g., Arduino Leonardo or another device capable of keyboard emulation) to:
+This code uses an Arduino (e.g., Arduino Leonardo or another device capable of keyboard emulation [`ATmega32u4 chip`]) to:
 1. Open PowerShell using the Windows shortcut `Win + R`.
 2. Execute a Base64-encoded PowerShell command, which is decoded and explained below.
 
