@@ -28,6 +28,7 @@ $wifiProfiles | ForEach-Object { $profile = $_; $profileInfo = netsh wlan show p
 $userInfo = whoami;
 $output += "`nUser Info: $userInfo`n";
 $output | Out-File -FilePath $filePath;
+notepad $filePath
 ```
 
 This command saves a `test.txt` file containing information about WiFi profiles and other user information in the user's folder (`$env:USERPROFILE`).
